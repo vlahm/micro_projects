@@ -49,7 +49,7 @@ for i in range(1, int(n_pages)):
 
     #click mouse or press arrow key and wait for user-specified time
     if i == 1:
-        m.click(x,y)
+        m.click(x,y) #focus on the appropriate window
     else:
         k.press(Key.right)
         k.release(Key.right)
