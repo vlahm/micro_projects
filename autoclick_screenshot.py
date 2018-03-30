@@ -15,6 +15,8 @@ import numpy as np
 #imagemagick is also installed, because it's necessary for the `convert` command,
 #but pyscreenshot knows not to use it because it makes blackboxes in some cases.
 
+#use py36 env
+
 n_pages = sys.argv[1]
 sleep_time = sys.argv[2]
 write_path = sys.argv[3]
