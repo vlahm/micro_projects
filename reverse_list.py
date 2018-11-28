@@ -1,5 +1,5 @@
 
-file_to_reverse = '/home/mike/git/streampulse/server_copy/sp/templates/l.md'
+file_to_reverse = '/home/mike/Desktop/ll'
 
 with open(file_to_reverse, 'r') as f:
     text = f.read()
