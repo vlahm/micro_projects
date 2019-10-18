@@ -26,7 +26,7 @@ simulate_knight_moves = function(nmoves, starting_rank=1, starting_file=1){
 
         position = visited[i,]
         ordr = sample(1:2, replace=FALSE)
-        signs = sample(c(1, -1), replace=FALSE)
+        signs = sample(c(1, -1), replace=TRUE)
 
         newpos = get_newpos(position, ordr, signs)
         visited = rbind(visited, newpos)
@@ -45,7 +45,6 @@ simulate_knight_moves = function(nmoves, starting_rank=1, starting_file=1){
 
 simulate_knight_moves(4)
 m = simulate_knight_moves(10000)
-#why is 8-8 never reached?
 
 plotrix::color2D.matplot(m, main='visit density', xlab='file', ylab='rank',
     show.legend=TRUE)
