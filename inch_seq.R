@@ -6,7 +6,7 @@ inch_seq = function(tot_len, piece_len){
     comp = as.numeric(comp)
 
     if(any(is.na(comp))){
-        stop('piece_len must be of the form "X X/X" where all X are numeric')
+        stop('piece_len must be of the form "X X/X" where all X are integers')
     }
 
     s = seq(0, tot_len, comp[1] + (comp[2]/comp[3]))
