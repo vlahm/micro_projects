@@ -1,3 +1,6 @@
 /tensorflow-for-poets-2/
 /tf_intro/
 /wildfire
+mine_locations/*
+!mine_locations/mine_locations.R
+*.xlsx
