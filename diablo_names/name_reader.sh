@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VOICES=("male1" "male2" "male3" "female1" "female2" "female3" "child_male" "child_female")
+VOICES=("male2" "male3" "female1" "female3" "child_male" "child_female")
 
 while true; do
 
