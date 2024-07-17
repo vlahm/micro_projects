@@ -11,6 +11,6 @@ while true; do
     VOICE=${VOICES[$RANDOM % ${#VOICES[@]}]}
 
     source ~/git/micro_projects/diablo_names/d2name.sh | spd-say -e -r $RATE -p $PITCH -R $RANGE -i $VOLUME -t $VOICE -w
-    sleep 0.5
+    #sleep 0.1
 done
 
